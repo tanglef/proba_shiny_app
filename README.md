@@ -1,4 +1,4 @@
-# proba_shiny_app
+# Shiny app for probability distributions
 
 A first try at using shiny apps to visualize probability distributions and compute easily probabilities
 
