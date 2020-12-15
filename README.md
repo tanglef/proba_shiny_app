@@ -18,7 +18,17 @@ This allows the user to
 
 ## Disclaimer
 
-This project could absolutly be continued now, and improved (a lot). This is still an idea that when the time comes, I'll work on.
+This project could absolutly be continued now, and improved (a lot).
 In the mean time, the app is deployed at [shinyapp](https://tanguylefort.shinyapps.io/probas/) (with only the free plan so there are time and memory limitations).
+If you wish to run it locally there are two options:
+
+- simply clone the project and run the `app.R` file,
+- use `rshiny` connection to github as follows.
+
+```R
+# install.packages(c("shiny", "plotly", "rsconnect", "shinydashboard"))
+library(shiny)
+runGitHub( "proba_shiny_app", "tanglef")
+``` 
 
 Enjoy and don't hesitate to give me some feedback, one never know when/if I'll go back to it, it might be useful.
